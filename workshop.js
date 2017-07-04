@@ -1,4 +1,11 @@
+
+
+
 function forEach(callback, theArray) {
+  for(var i=0; i<theArray.length; i++){
+    callback(theArray[i]);
+  }
+  
   /*
   This is a little hint to get you started ;)
   
